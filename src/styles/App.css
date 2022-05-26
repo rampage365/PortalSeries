@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+body{
+  font-family: "San Francisco" ,"sans-serif" ;
+  font-weight: 400 ;
+  background-color: rgb(12, 10, 10);
+}
+
+h1{
+  font-family: "San Francisco" ,"sans-serif" ;
+  font-weight: 700 ;
+  
+}
+
+h4{
+  font-family: "San Francisco" ,"sans-serif" ;
+  font-weight: 900 ;
+  color: #fff;
+}
+h6{
+  font-family: "San Francisco" ,"sans-serif" ;
+  font-weight: bold ;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  padding-inline-start: 0 ;
+}
+
+abbr{
+  cursor: wait;
+}
+
+.imagen-contenedor{
+  background-color: transparent;
+}
+
+.contenedor figure {
+  position: relative;
+  /* height: 250px; */
+  cursor: pointer;
+  /* width: 350px; */
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  border-radius: 6px;
+  margin: 0px 0px 1em 0px;
+  padding: 0px;
+}
+
+.contenedor figure .efecto {
+  /* position: absolute; */
+  display: flex;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(19 20 20 / 49%);
+  transition: all 100ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.efecto {
+  display: flex;
+  position: relative;
+  /* border: 2px solid pink; */
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.efecto {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-radius: 15px;
+  cursor: zoom-in;
+  background-color: lightgray;
+}
+
+
+.contenedor figure{
+  position:relative;
+   /*height: 250px;*/
+   cursor: pointer;
+   /*width: 350px;*/
+   width: 100%;
+   height: 100%;
+   /*overflow: hidden;*/
+   border-radius: 6px;
+   /*box-shadow: rgba(0,0,0,0.50);*/
+   margin: 0px 0px 1em 0px;
+   padding: 0px;
+ 
+}
+
+.contenedor figure img{
+   width: 100%;
+   height: 100%;
+   outline: 1px solid rgb(255, 255, 255);
+   outline-offset: -4px;
+   transition: all 400ms ease-out;
+   will-change: transform;
+   border-radius: 15px;
+}
+
+.contenedor figure .efecto{
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background: rgb(19 20 20 / 49%);
+   /*transition: all 100ms ease-out;*/
+   opacity: 0;
+   visibility: hidden;
+   text-align: center;
+}
+
+.contenedor figure:hover > .efecto {
+   opacity: 1;
+   visibility: visible;
+}
+
+/****GRID HOVER****/
+.div-top{
+  margin-top:15px;
+  align-items:flex-end;
+  display: flex;
+  width:90%;
+  /*border: 2px solid pink;*/
+  justify-content:space-between;
+}
+
+.sup-izq{
+  
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 30px;
+    /*background-color: #f30b2e;*/
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.svg-dropdown-guardar{
+    color: #fff;
+    font-weight: 900;
+    width: 13px;
+    height: 13px;
+}
+.sup-izq:hover{
+    cursor:pointer;
+
+}
+.sup-derecho{
+  
+    /*background-color: green;*/
+    width: 85px;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 30px;
+    background-color: #f30b2e;
+    text-decoration: none;
+    font-weight: 980;
+    color: white;
+}
+.sup-derecho:hover{
+    background-color: #c90523;
+    cursor:pointer;
+}
+
+
+
+.inf-izq{
+    display: flex;
+    justify-content:center;
+      align-items:center;
+      overflow: hidden;
+      border-radius: 30px;
+    width: 110px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.658);
+}
+.svg-link{
+    width: 10px;
+    height: 10px;
+    
+}
+.one-inf-izq{
+    display: flex;
+    justify-content:center;
+      align-items:center;
+     
+}
+.two-inf-izq{
+    font-size: 13px;
+    color: black;
+    display: flex;
+    justify-content:center;
+      align-items:center;
+    margin-left: 0.5em;
+}
+
+.inf-izq:hover{
+    background:#fff;
+    cursor:pointer;
+}
+
+
+.inf-centro{
+    display: flex;
+    justify-content:center;
+      align-items:center;
+      overflow: hidden;
+      border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.658);
+}
+
+.inf-centro:hover{
+    background:#fff;
+    cursor:pointer;
+}
+.svg-upload{
+    width: 15px;
+    height: 12px;
+    
+}
+
+
+.inf-derecho{
+  display: flex;
+  justify-content:center;
+    align-items:center;
+    overflow: hidden;
+    border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.658);
+}
+
+.inf-derecho:hover{
+    background:#fff;
+    cursor:pointer;
+}
+.svg-mas{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+.div-bottom{
+  width:90%;
+  display: flex;
+  justify-content:space-between;
+  /*border: 2px solid pink;*/
+  margin-bottom:17px;
+}
+/****END  GRID HOVER****/
